@@ -5,9 +5,6 @@ Fokus utama:
 - Menandai potensi risiko (misalnya ransomware, DDoS, malware, dsb)
 - (Opsional) Menjalankan demo enkripsi/dekripsi aman dengan `cryptography` (tanpa merusak file)
 
-⚠️ **Catatan:**  
-Script ini hanya bersifat **analisis pasif**. Tidak ada bagian yang mengeksekusi kode dari repo target.
-
 ---
 
 ## 📦 Instalasi
@@ -53,8 +50,5 @@ python3 cek.py ***/***
 ```
 3. Analisis tanpa menyimpan hasil
 ```bash
-python3 cek.py mauri870/ransomware --no-save
+python3 cek.py username/repo --no-save
 ```
-4. Analisis dengan demo enkripsi/dekripsi aman
-```bash
-python3 cek.py mauri870/ransomware --demo-encrypt
